@@ -1,11 +1,28 @@
-# Welcome to TTS API Documentation
+# Welcome to Our Text-to-Speech (TTS) API Documentation
 
-This guide will help you get started with our Text-to-Speech API.
+Welcome to the official documentation for our Text-to-Speech (TTS) API. This guide will help you integrate our powerful TTS capabilities into your applications, allowing you to convert text into natural-sounding speech.
 
-## Quick Start
+## Quick Start Guide
 
-1. [Create an account](docs/account-creation.md)
-2. [Obtain API key](docs/api-key.md)
-3. [Make your first API call](docs/first-call.md)
+1. [Create an Account](docs/account-creation.md)
+2. [Obtain Your API Key](docs/api-key.md)
+3. [Make Your First API Call](docs/first-call.md)
 
-[Full Documentation](docs/full-docs.md)
+## Key Features
+
+- High-quality text-to-speech conversion
+- Multiple speaker options
+- Customizable speech parameters
+- Streamed and non-streamed audio output
+
+## Documentation Sections
+
+- [Full API Reference](docs/full-docs.md)
+- [Speaker Selection Guide](docs/speaker-selection.md)
+- [Usage and Billing](docs/usage-billing.md)
+
+## Getting Help
+
+If you need assistance or have any questions, please don't hesitate to contact our support team.
+
+Thank you for choosing our TTS API. We're excited to see what you'll create!

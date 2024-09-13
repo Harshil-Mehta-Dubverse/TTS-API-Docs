@@ -1,42 +1,83 @@
-# TTS API Full Documentation
+# Full API Documentation
 
-## 1. Introduction
+This page provides comprehensive documentation for our Text-to-Speech (TTS) API. Here you'll find detailed information about endpoints, request parameters, response formats, and more.
 
-Our TTS API allows you to convert text to speech with various options and configurations.
+## Table of Contents
 
-## 2. Getting Started
+1. [Authentication](#authentication)
+2. [API Endpoint](#api-endpoint)
+3. [Request Parameters](#request-parameters)
+4. [Response Formats](#response-formats)
+5. [Error Handling](#error-handling)
+6. [Rate Limits](#rate-limits)
 
-### 2.1 Create an Account
-Visit our [main website](#) and create an account.
+## Authentication
 
-### 2.2 Obtain API Key
-Navigate to the TTS page on our website to create your API key.
+All API requests must include your API key in the header:
 
-## 3. API Reference
+```
+X-API-Key: YOUR_API_KEY_HERE
+```
 
-### 3.1 Authentication
-Use your API key in the TTS API header for authentication.
+Replace `YOUR_API_KEY_HERE` with your actual API key. If you haven't obtained an API key yet, please refer to the [API Key page](api-key.md).
 
-### 3.2 Endpoints
-[List and describe your API endpoints here]
+## API Endpoint
 
-### 3.3 Request Parameters
-[Describe the fields and config properties, including speaker number]
+The base URL for all API requests is:
 
-### 3.4 Response Formats
-We offer two types of responses:
-- Streamed audio
-- Non-streamed WAV audio file
+```
+https://api.ourttssiteexample.com/v1/tts
+```
 
-[Provide more details on file extensions and audio information]
+## Request Parameters
 
-## 4. Speaker Selection
-[Include information about the speaker playground and how to select speakers]
+| Parameter | Type | Required | Description |
+|-----------|------|----------|-------------|
+| text | string | Yes | The text to convert to speech |
+| speaker | integer | Yes | The ID of the speaker to use (see [Speaker Selection](speaker-selection.md)) |
+| format | string | No | Audio format (default: "wav", options: "wav", "mp3", "ogg") |
+| speed | float | No | Speech rate (0.5 to 2.0, default: 1.0) |
+| pitch | float | No | Voice pitch (-20 to 20, default: 0) |
+| stream | boolean | No | Whether to stream the audio (default: false) |
 
-## 5. Usage and Billing
-- View usage statistics in the TTS page on our main website
-- Billing is generated automatically based on API usage
-- Usage may be restricted if billing is not cleared
+## Response Formats
 
-## 6. Pricing
-Speaker costs are consistent and based on text characters processed.
+### Non-streamed Response
+
+For non-streamed requests, the API returns the audio file directly. The `Content-Type` header will match the requested format (e.g., `audio/wav` for WAV files).
+
+### Streamed Response
+
+For streamed requests, the API returns chunks of audio data with `Transfer-Encoding: chunked`. You'll need to handle the streaming on your end to reconstruct the audio.
+
+## Error Handling
+
+The API uses standard HTTP response codes. In case of an error, you'll receive a JSON response with more details:
+
+```json
+{
+  "error": {
+    "code": "ERROR_CODE",
+    "message": "A description of the error"
+  }
+}
+```
+
+Common error codes include:
+- 400: Bad Request
+- 401: Unauthorized (invalid API key)
+- 429: Too Many Requests (rate limit exceeded)
+- 500: Internal Server Error
+
+## Rate Limits
+
+To ensure fair usage, we implement rate limiting:
+- 100 requests per minute
+- 1000 requests per hour
+- 10000 requests per day
+
+If you exceed these limits, you'll receive a 429 error. Please check the [Usage and Billing](usage-billing.md) page for more information on limits and how to increase them.
+
+For any questions not covered here, please contact our support team.
+
+[Back to Home](../index.md)
