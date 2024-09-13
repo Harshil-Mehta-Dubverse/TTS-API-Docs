@@ -1,0 +1,27 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+// Custom styles to remove sidebar
+header {
+  display: none;
+}
+
+section {
+  width: 100%;
+  float: none;
+  padding: 30px 50px;
+}
+
+footer {
+  width: 100%;
+  float: none;
+  position: static;
+}
+
+.wrapper {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+}
