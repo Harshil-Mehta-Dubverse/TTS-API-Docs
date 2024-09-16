@@ -1,4 +1,4 @@
-remote_theme: just-the-docs/just-the-docs
+remote_theme: just-the-docs
 theme: just-the-docs
 title: TTS API Docs
 description: Complete guide to using our Text-to-Speech API
