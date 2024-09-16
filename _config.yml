@@ -3,8 +3,11 @@ theme: just-the-docs
 title: TTS API Docs
 description: Complete guide to using our Text-to-Speech API
 
+repository: Harshil-Mehta-Dubverse/TTS-API-Docs
+
 plugins:
   - jekyll-remote-theme
+  - jekyll-github-metadata
 
 favicon_ico: "/assets/images/favicon.png"
 
