@@ -280,9 +280,7 @@ PLATFORMS
 
 DEPENDENCIES
   github-pages
-  jekyll-remote-theme
   just-the-docs
-  webrick (~> 1.7)
 
 BUNDLED WITH
    2.5.18
