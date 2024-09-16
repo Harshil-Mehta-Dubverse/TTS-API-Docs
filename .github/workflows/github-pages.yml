@@ -14,21 +14,19 @@ jobs:
       - name: Set up Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: "2.7" # GitHub Pages currently uses Ruby 2.7.x
+          ruby-version: "3.1" # Use a version compatible with your Bundler
           bundler-cache: true
-
-      - name: Update Bundler
-        run: |
-          gem install bundler
-          bundle update --bundler
 
       - name: Install dependencies
         run: |
-          bundle config path vendor/bundle
-          bundle install --jobs 4 --retry 3
+          gem install bundler:2.5.18
+          bundle config set --local path 'vendor/bundle'
+          bundle install
 
       - name: Build the site
         run: bundle exec jekyll build
+        env:
+          JEKYLL_ENV: production
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
