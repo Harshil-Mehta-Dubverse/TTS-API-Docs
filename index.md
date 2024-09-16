@@ -5,13 +5,49 @@ nav_order: 1
 
 # Welcome to Our Text-to-Speech (TTS) API Documentation
 
-Welcome to the official documentation for our Text-to-Speech (TTS) API. This guide will help you integrate our powerful TTS capabilities into your applications, allowing you to convert text into natural-sounding speech.
+Welcome to the Dubverse TTS API documentation. This guide provides quick reference for experienced users and comprehensive information for new integrators.
 
-## Quick Start Guide
+## API Quick Reference
 
-1. [Create Your Account](docs/account-creation.md)
-2. [Obtain Your API Key](docs/api-key.md)
-3. [Make Your First API Call](docs/first-call.md)
+### Endpoint
+
+```
+POST https://macaque.dubverse.ai/api/merlin/services/tts/text-to-speech
+```
+
+### Headers
+
+```
+X-API-Key: YOUR_API_KEY_HERE
+Content-Type: application/json
+```
+
+### Request Body
+
+```json
+{
+  "text": "Hello, welcome to Dubverse TTS!",
+  "speaker": 181,
+  "config": {
+    "use_streaming_response": false
+  }
+}
+```
+
+### Sample cURL Request
+
+```bash
+curl -X POST "https://macaque.dubverse.ai/api/merlin/services/tts/text-to-speech" \
+     -H "X-API-Key: YOUR_API_KEY_HERE" \
+     -H "Content-Type: application/json" \
+     -d '{
+           "text": "Hello, welcome to Dubverse TTS!",
+           "speaker": 181,
+           "config": {
+             "use_streaming_response": false
+           }
+         }'
+```
 
 ## Key Features
 
@@ -19,6 +55,12 @@ Welcome to the official documentation for our Text-to-Speech (TTS) API. This gui
 - Multiple speaker options
 - Customizable speech parameters
 - Streamed and non-streamed audio output
+
+## Quick Start Guide
+
+1. [Create Your Account](docs/account-creation.md)
+2. [Obtain Your API Key](docs/api-key.md)
+3. [Make Your First API Call](docs/first-call.md)
 
 ## Documentation Sections
 
