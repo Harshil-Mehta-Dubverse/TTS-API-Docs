@@ -1,45 +1,120 @@
-# Making Your First API Call
+---
+title: Making Your First TTS API Call
+nav_order: 4
+---
 
-Now that you have your API key, let's make your first call to our Text-to-Speech (TTS) API. This guide will walk you through a basic example to convert text to speech.
+# Making Your First TTS API Call
+
+Congratulations on obtaining your API key! This guide will walk you through making your first Text-to-Speech (TTS) API call with Dubverse, converting your text into natural-sounding speech.
 
 ## Prerequisites
 
-- Your API key (obtained from the [API Key page](api-key.md))
-- A tool to make HTTP requests (e.g., cURL, Postman, or your preferred programming language)
+Before you begin, ensure you have:
 
-## Basic API Call
+- Your Dubverse API key (If you haven't obtained one, visit the [API Key page](api-key.md))
+- A tool for making HTTP requests (e.g., Postman, cURL, or your preferred programming language)
 
-Here's a simple example using cURL:
+## API Request Details
+
+### HTTP Method
+
+```
+POST
+```
+
+### Endpoint URL
+
+```
+https://macaque.dubverse.ai/api/merlin/services/tts/text-to-speech
+```
+
+### Headers
+
+```
+X-API-Key: YOUR_API_KEY_HERE
+Content-Type: application/json
+```
+
+Replace `YOUR_API_KEY_HERE` with your actual Dubverse API key.
+
+### Request Body
+
+```json
+{
+  "text": "Hello, world! This is my first TTS API call.",
+  "speaker": 181,
+  "config": {
+    "use_streaming_response": false
+  },
+  "callback_url": "https://your-callback-url.com/endpoint"
+}
+```
+
+## Request Parameters Explained
+
+- `text` (required): The input text you want to convert to speech.
+- `speaker_no` (required): The ID of the speaker voice. See [Speaker Selection](speaker-selection.md) for available options.
+- `config` (optional): Additional configuration options.
+  - `use_streaming_response`: Set to `true` for streamed audio, `false` for a complete audio file response.
+- `callback_url` (optional): URL to receive the API response if different from the origin.
+
+## Making the API Call
+
+You can use any HTTP client to make this API call. Here's an example using cURL:
 
 ```bash
-curl -X POST "https://api.ourttssiteexample.com/v1/tts" \
+curl -X POST "https://macaque.dubverse.ai/api/merlin/services/tts/text-to-speech" \
      -H "X-API-Key: YOUR_API_KEY_HERE" \
      -H "Content-Type: application/json" \
      -d '{
            "text": "Hello, world! This is my first TTS API call.",
-           "speaker": 1,
-           "format": "wav"
+           "speaker": 181,
+           "config": {
+             "use_streaming_response": false
+           }
          }'
 ```
 
-Replace `YOUR_API_KEY_HERE` with your actual API key.
+## Understanding the Response
 
-## Request Parameters
+### Success Response
 
-- `text`: The text you want to convert to speech (required)
-- `speaker`: The ID of the speaker voice you want to use (required, see [Speaker Selection](speaker-selection.md))
-- `format`: The desired audio format (optional, defaults to "wav")
+For non-streamed responses:
 
-## Response
+- You'll receive a WAV file containing the synthesized speech.
+- The response will have a `Content-Type: audio/wav` header.
 
-If successful, you'll receive a response with the audio data. For non-streamed responses, you'll get a WAV file. For streamed responses, you'll receive the audio data in chunks.
+For streamed responses:
+
+- You'll receive audio data in chunks.
+- The response will have a `Transfer-Encoding: chunked` header.
+
+### Error Response
+
+If an error occurs, you'll receive a JSON response with error details:
+
+```json
+{
+  "error": {
+    "code": "ERROR_CODE",
+    "message": "Description of the error"
+  }
+}
+```
 
 ## Next Steps
 
-- Explore more [API options and parameters](full-docs.md)
-- Learn about [speaker selection](speaker-selection.md)
-- Understand [usage limits and billing](usage-billing.md)
+Now that you've made your first API call, you can:
 
-If you encounter any issues, please check our [full documentation](full-docs.md) or contact our support team.
+1. Learn more about [Speaker Selection](speaker-selection.md)
+2. Understand [Usage and Billing](usage-billing.md)
 
-[Back to Home](../index.md)
+## Need Help?
+
+If you encounter any issues during the account creation process:
+
+- Contact our support team at support@dubverse.ai
+
+We're excited to see what you'll create with Dubverse TTS!
+
+[← Back to Home](../index.md)

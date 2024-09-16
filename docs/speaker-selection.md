@@ -1,58 +1,78 @@
+---
+title: Speaker Selection
+nav_order: 5
+---
+
 # Speaker Selection
 
-Our TTS API offers a variety of speakers to choose from, allowing you to select the perfect voice for your application. This guide will help you understand how to select and use different speakers.
+Choosing the right voice for your Text-to-Speech (TTS) application is crucial for creating an engaging user experience. Dubverse offers a diverse range of high-quality voices across multiple languages and accents. This guide will help you navigate our speaker options and select the perfect voice for your project.
 
-## Speaker Playground
+## Exploring the Speaker Playground
 
-To help you choose the right speaker, we provide a Speaker Playground on our main website. Here's how to use it:
+Our Speaker Playground is a powerful tool designed to help you audition and select the ideal voice for your TTS needs.
 
-1. Log in to your account at [www.ourttssiteexample.com](https://www.ourttssiteexample.com)
-2. Navigate to the TTS page
-3. Look for the "Speaker Playground" tab or section
+### Accessing the Speaker Playground
 
-In the Speaker Playground, you can:
-- Select different languages
-- Choose speaker genders
-- Play sample audio for each available speaker
-- See the associated speaker ID for use in API calls
+1. Log in to your Dubverse account at [https://webapp.dubverse.ai/](https://webapp.dubverse.ai/){:target="\_blank"}
+2. Navigate to the "TTS API" page in the main menu
+3. Click on the "Speakers" tab
 
-## Using Speakers in API Calls
+### Features of the Speaker Playground
 
-Once you've selected a speaker, you'll use its ID in your API calls. For example:
+- **Language Filtering**: Easily filter voices by language or dialect
+- **Gender Selection**: Choose between male, female, and neutral voice options
+- **Audio Sampling**: Listen to high-quality audio samples for each voice
+- **Speaker Details**: View comprehensive information about each voice, including:
+  - Speaker Number (for API calls)
+  - Language
+
+## Implementing Speakers in Your API Calls
+
+Once you've chosen a speaker, use its Number in your API requests:
 
 ```json
 {
-  "text": "Hello, world!",
-  "speaker": 12,
-  "format": "wav"
+  "text": "Welcome to Dubverse TTS! How can I assist you today?",
+  "speaker_no": 181
 }
 ```
 
-In this example, `12` is the ID of the chosen speaker.
+In this example, `181` represents the chosen speaker's Number.
 
-## Available Languages and Genders
+## Best Practices for Speaker Selection
 
-We offer a wide range of languages and gender options. Some of our most popular include:
+1. **Know Your Audience**: Choose a voice that resonates with your target demographic in terms of language, accent, and style.
 
-- English (US, UK, Australian)
-- Spanish
-- French
-- German
-- Mandarin Chinese
-- Japanese
+2. **Consider Context**: Select a voice appropriate for your application's purpose (e.g., a professional tone for business applications, a friendly voice for customer service bots).
 
-Each language typically has multiple gender options (e.g., male, female, neutral).
+3. **Test Thoroughly**: Use the Speaker Playground to test your specific content with multiple voices before making a final decision.
 
-## Speaker Costs
+4. **Consistency is Key**: Stick to one voice per character or purpose in your application to maintain a coherent user experience.
 
-All speakers are priced consistently based on the number of characters in the input text. For current pricing information, please check the [Usage and Billing](usage-billing.md) page.
+5. **Stay Updated**: Regularly check the Speaker Playground for new voices that might better suit your needs.
 
-## Best Practices
+6. **Localization**: For global applications, consider using region-specific accents to enhance user engagement and authenticity.
 
-- Test multiple speakers for your use case to find the best fit
-- Consider your target audience when selecting a speaker (e.g., region-specific accents)
-- Remember that speaker IDs may change over time, so always refer to the Speaker Playground for the most up-to-date IDs
+## Speaker Costs and Billing
 
-For any questions about speaker selection or if you need a specific type of voice not currently offered, please contact our support team.
+Dubverse maintains a consistent pricing model across all speakers, based on the number of characters processed. This approach ensures fairness and predictability in your TTS costs.
 
-[Back to Home](../index.md)
+For detailed pricing information and to understand how billing works, please refer to our [Usage and Billing](usage-billing.md) page.
+
+## Customization and Special Requests
+
+Need a specific voice or accent not currently available in our library? We're here to help!
+
+- **Language Expansion**: Request support for additional languages or dialects.
+
+Contact our support team at support@dubverse.ai to discuss your specific requirements.
+
+## Need Assistance?
+
+If you have any questions about speaker selection or need guidance in choosing the right voice for your project:
+
+- Reach out to our support team at support@dubverse.ai
+
+We're excited to help you find the perfect voice for your TTS application!
+
+[← Back to Home](../index.md)

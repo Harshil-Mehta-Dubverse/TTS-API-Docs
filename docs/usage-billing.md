@@ -1,73 +1,102 @@
+---
+title: Usage and Billing
+nav_order: 6
+---
+
 # Usage and Billing
 
-Understanding your API usage and associated costs is crucial for managing your TTS integration effectively. This page provides information on how to track your usage, understand billing, and manage your account.
+Effectively managing your Dubverse Text-to-Speech (TTS) API usage and understanding the associated costs is crucial for optimizing your integration. This comprehensive guide will help you track usage, understand billing processes, and manage your account efficiently.
 
-## Viewing Usage Statistics
+## Monitoring Your API Usage
 
-To view your API usage:
+### Accessing Usage Statistics
 
-1. Log in to your account at [www.ourttssiteexample.com](https://www.ourttssiteexample.com)
-2. Navigate to the TTS page
+1. Log in to your Dubverse account at [https://webapp.dubverse.ai/](https://webapp.dubverse.ai/){:target="\_blank"}
+2. Navigate to the "TTS API" page from the main dashboard
 3. Click on the "Usage" tab
 
-Here, you can view:
-- Total API calls made
-- Characters processed
-- Usage breakdown by speaker
-- Historical usage data
+### Available Usage Metrics
 
-## Billing
+- **Total API Calls**: Number of requests made to the TTS API
+- **Characters Processed**: Total text characters converted to speech
+- **Speaker Usage Breakdown**: Utilization statistics for each voice
+- **Historical Data**: Usage trends over time (daily, weekly, monthly)
+- **Current Billing Cycle Usage**: Progress towards your usage cap
 
-Billing is generated automatically based on your API usage. To view your current bill and billing history:
+## Understanding Your Billing
 
-1. Log in to your account
-2. Navigate to the TTS page
-3. Click on the "Billing" tab
+### Viewing Billing Information
+
+1. Log in to your Dubverse account
+2. Go to the "TTS API" page
+3. Select the "Billing" tab
+
+### Billing Cycle and Invoice Generation
+
+- Invoices are generated every two weeks or when you reach your usage cap
+- You can view current usage, estimated charges, and past invoices at any time
 
 ### Billing Criteria
 
-Your bill is calculated based on:
-- Number of API calls made
+Your invoice is calculated based on:
+
 - Total characters processed
-- Any additional features or services used
+- Number of API calls made
 
-### Pricing
+### Pricing Structure
 
-Our pricing is based on the number of characters processed:
+Our straightforward pricing model ensures transparency and predictability:
 
-- $X.XX per 1,000 characters (prorated for smaller amounts)
-- All speakers are priced consistently
+- **Standard Rate**: $1 or ₹60 per 10,000 characters processed
+- **Consistent Pricing**: All speakers are priced uniformly
+- **Volume Discounts**: Available for high-volume users (contact our sales team)
 
-For large volume discounts, please contact our sales team.
+### Usage Limits and Restrictions
 
-## Usage Limits and Restrictions
+To maintain fair usage and prevent unexpected charges:
 
-To ensure fair usage and prevent unexpected bills, we implement the following:
+- **Default Usage Cap**: 50,000 characters per invoice or two weeks of usage
+- **Cap Reached**: API usage is restricted when the cap is reached
+- **Restriction Removal**: Access is restored once pending invoices are settled
 
-- Default usage cap: 100,000 characters per day
-- When 80% of the cap is reached, we'll send an email notification
-- If the cap is reached, API access will be temporarily restricted
+## Enterprise and High-Volume Options
 
-To increase your usage cap, please contact our support team.
+For businesses with substantial TTS needs:
 
-## Payment Methods
+- Custom usage caps
+- Tailored pricing plans
+- Dedicated account management
+- Priority support
 
-We accept the following payment methods:
-- Credit/Debit Cards
-- PayPal
-- Bank Transfer (for enterprise accounts)
+Contact our sales team at support@dubverse.ai to discuss enterprise solutions.
 
-## FAQs
+## Cost Optimization Strategies
+
+1. **Efficient Text Processing**: Minimize unnecessary characters in your API requests
+2. **Caching**: Store and reuse common TTS outputs to reduce API calls
+3. **Batch Processing**: Combine multiple short texts into single API calls where applicable
+4. **Usage Monitoring**: Regularly review your usage patterns to identify optimization opportunities
+
+## Frequently Asked Questions
 
 Q: What happens if I exceed my usage cap?
-A: Your API access will be temporarily restricted. You'll need to clear your current bill or increase your cap to resume service.
+A: Your API access will be temporarily restricted. To resume service, settle your current invoice through the billing portal.
 
-Q: How often is billing generated?
-A: Bills are generated monthly, but you can view your current usage and estimated bill at any time.
+Q: How quickly is my usage data updated?
+A: Usage statistics are typically updated in real-time, allowing for immediate monitoring of your API consumption.
 
-Q: Can I set up alerts for usage thresholds?
-A: Yes, you can set up custom alerts in the Usage tab of your account dashboard.
+Q: Are there any hidden fees or charges?
+A: No, our pricing is transparent. You only pay for the characters processed, with no additional hidden costs.
 
-For any other questions about usage or billing, please don't hesitate to contact our support team.
+Q: How do I request an increase in my usage cap?
+A: Contact our support team at support@dubverse.ai to discuss increasing your usage limit.
 
-[Back to Home](../index.md)
+## Need Assistance?
+
+For any questions regarding usage, billing, or account management:
+
+- Contact our billing support team at support@dubverse.ai
+
+We're committed to providing transparent and fair billing practices to support your TTS integration needs.
+
+[← Back to Home](../index.md)

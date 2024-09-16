@@ -1,5 +1,42 @@
-remote_theme: pages-themes/dinky@v0.2.0
-plugins:
-- jekyll-remote-theme
-title: TTS API Documentation
+theme: just-the-docs
+title: TTS API Docs
 description: Complete guide to using our Text-to-Speech API
+
+favicon_ico: "/assets/images/favicon.png"
+
+permalink: pretty
+
+# Aux links for the upper right navigation
+aux_links:
+  "Dubverse.ai":
+    - "https://webapp.dubverse.ai"
+
+# Makes Aux links open in a new tab. Default is false
+aux_links_new_tab: true
+
+# For copy button on code
+enable_copy_code_button: true
+
+# Enable or disable heading anchors
+heading_anchors: true
+
+liquid:
+  error_mode: strict
+  strict_filters: true
+
+# Back to top link
+back_to_top: true
+back_to_top_text: "Back to top"
+
+kramdown:
+  syntax_highlighter_opts:
+    block:
+      line_numbers: false
+
+compress_html:
+  clippings: all
+  comments: all
+  endings: all
+  startings: []
+  blanklines: false
+  profile: false

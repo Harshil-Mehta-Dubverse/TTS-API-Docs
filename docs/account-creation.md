@@ -1,33 +1,54 @@
-# Creating Your Account
+---
+title: Creating Your Dubverse Account
+nav_order: 2
+---
 
-To start using our Text-to-Speech (TTS) API, you'll need to create an account. Follow these simple steps to get started:
+# Creating Your Dubverse Account
 
-## Steps to Create Your Account
+Welcome to Dubverse! This guide will walk you through the process of creating your account, which is your first step towards harnessing our powerful Text-to-Speech (TTS) API.
 
-1. Visit our main website at [www.ourttssiteexample.com](https://www.ourttssiteexample.com).
+## Account Creation Process
 
-2. Look for the "Sign Up" or "Create Account" button, usually located in the top right corner of the page.
+Follow these straightforward steps to set up your Dubverse account:
 
-3. Click on the button to start the account creation process.
+1. **Visit the Dubverse Web App**
 
-4. Fill in the required information:
-   - Your full name
-   - A valid email address
-   - Choose a strong password
-   - Any other required fields (e.g., company name, if applicable)
+   - Navigate to [https://webapp.dubverse.ai/](https://webapp.dubverse.ai/){:target="\_blank"}
 
-5. Read and accept our Terms of Service and Privacy Policy.
+2. **Choose Your Sign-Up Method**
 
-6. Click the "Create Account" or "Sign Up" button to submit your information.
+   - Option A: Sign up with Google
+     - Click on the "Continue with Google" button
+     - Select your Google account and follow the prompts
+   - Option B: Sign up with Email
+     - Click on the "Continue with Email" button
+     - Fill in the required information:
+       - Full Name
+       - Email Address
+       - Secure Password
 
-7. Check your email for a verification message. Click the link in the email to verify your account.
+3. **Verify Your Email** (If signing up with email)
 
-8. Once verified, you can log in to your new account.
+   - Check your inbox for a verification email from Dubverse
+   - Click on the verification link in the email
+   - If you don't see the email, check your spam folder
 
-## Next Steps
+4. **Access Your Dashboard**
+   - After verification and profile completion, you'll be directed to your Dubverse dashboard
 
-After creating your account, your next step is to [obtain an API key](api-key.md). This key is essential for authenticating your requests to our TTS API.
+## What's Next?
 
-If you encounter any issues during the account creation process, please contact our support team for assistance.
+Now that you have your Dubverse account, here are your next steps:
 
-[Back to Home](../index.md)
+1. [Obtain Your API Key](api-key.md) - Essential for authenticating your API requests
+2. Try our [Speaker Selection Tool](speaker-selection.md) - Choose the perfect voice for your project
+
+## Need Help?
+
+If you encounter any issues during the account creation process:
+
+- Contact our support team at support@dubverse.ai
+
+We're excited to have you on board and can't wait to see what you'll create with Dubverse!
+
+[← Back to Home](../index.md)

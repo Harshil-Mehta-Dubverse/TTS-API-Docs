@@ -1,43 +1,86 @@
+---
+title: Obtaining Your API Key
+nav_order: 3
+---
+
 # Obtaining Your API Key
 
-An API key is required to authenticate your requests to our Text-to-Speech (TTS) API. Follow these steps to obtain your API key:
+Welcome to the API key generation process! Your API key is the gateway to accessing Dubverse's powerful Text-to-Speech (TTS) capabilities. This guide will walk you through obtaining and securing your API key.
 
-## Steps to Get Your API Key
+## Generating Your API Key
 
-1. Log in to your account on our main website [www.ourttssiteexample.com](https://www.ourttssiteexample.com).
+Follow these steps to create your Dubverse API key:
 
-2. Navigate to the TTS page. This is usually found in the main navigation menu or your account dashboard.
+1. **Access Your Dubverse Account**
 
-3. Look for a section labeled "API Keys" or "Create API Key".
+   - Visit [https://webapp.dubverse.ai/](https://webapp.dubverse.ai/){:target="\_blank"}
+   - Log in with your credentials
 
-4. Click on the "Generate New API Key" or similar button.
+2. **Navigate to the TTS API Section**
 
-5. You may be asked to confirm this action or provide a name for your API key.
+   - Look for "TTS API" in the main navigation menu
+   - Click to access the TTS API dashboard
 
-6. Your new API key will be displayed. Make sure to copy it and store it securely.
+3. **Locate the API Key Management Area**
 
-   **Important:** For security reasons, we may only show your API key once. If you lose it, you may need to generate a new one.
+   - Find the section labeled "API Key"
 
-## Using Your API Key
+4. **Generate Your New API Key**
 
-To use the TTS API, you'll need to include your API key in the header of your API requests. The specific header to use is:
+   - Click the "Create Key" button
+   - A new API key will be generated instantly
+
+5. **Secure Your API Key**
+
+   - Copy the displayed API key immediately
+   - Store it in a secure location (we recommend using a password manager)
+
+## Implementing Your API Key
+
+To authenticate your requests to the Dubverse TTS API, include your API key in the header of each request:
 
 ```
 X-API-Key: your_api_key_here
 ```
 
-Replace `your_api_key_here` with the actual API key you generated.
+Replace `your_api_key_here` with your actual API key.
 
-## API Key Security
+## Best Practices for API Key Security
 
-- Keep your API key confidential. Don't share it publicly or commit it to version control systems.
-- If you suspect your API key has been compromised, generate a new one immediately and update your applications.
-- Consider using environment variables or secure key management systems in your applications to store the API key.
+Protecting your API key is crucial. Follow these best practices:
 
-## Next Steps
+1. **Keep It Confidential**
 
-Now that you have your API key, you're ready to [make your first API call](first-call.md).
+   - Never share your API key publicly
+   - Avoid committing it to version control systems
 
-If you have any issues generating or using your API key, please contact our support team for assistance.
+2. **Use Environment Variables**
 
-[Back to Home](../index.md)
+   - Store your API key as an environment variable in your development and production environments
+
+3. **Implement Key Rotation**
+
+   - Regularly generate new API keys and update your applications
+
+4. **Monitor Usage**
+
+   - Regularly check your API usage logs for any suspicious activity
+
+5. **Revoke Compromised Keys**
+   - If you suspect your key has been compromised, revoke it immediately and generate a new one
+
+## What's Next?
+
+Now that you have your API key, you're ready to harness the power of Dubverse TTS:
+
+1. [Make Your First API Call](first-call.md) - Start converting text to speech
+
+## Need Help?
+
+If you encounter any issues during the account creation process:
+
+- Contact our support team at support@dubverse.ai
+
+We're excited to see what you'll create with Dubverse TTS!
+
+[← Back to Home](../index.md)
