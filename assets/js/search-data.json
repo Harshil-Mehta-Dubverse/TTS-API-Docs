@@ -1,0 +1,268 @@
+{"0": {
+    "doc": "Creating Your Dubverse Account",
+    "title": "Creating Your Dubverse Account",
+    "content": "Welcome to Dubverse! This guide will walk you through the process of creating your account, which is your first step towards harnessing our powerful Text-to-Speech (TTS) API. ",
+    "url": "/pages/Harshil-Mehta-Dubverse/TTS-API-Docs/docs/account-creation/",
+    
+    "relUrl": "/docs/account-creation/"
+  },"1": {
+    "doc": "Creating Your Dubverse Account",
+    "title": "Account Creation Process",
+    "content": "Follow these straightforward steps to set up your Dubverse account: . | Visit the Dubverse Web App . | Navigate to https://webapp.dubverse.ai/ | . | Choose Your Sign-Up Method . | Option A: Sign up with Google . | Click on the “Continue with Google” button | Select your Google account and follow the prompts | . | Option B: Sign up with Email . | Click on the “Continue with Email” button | Fill in the required information: . | Full Name | Email Address | Secure Password | . | . | . | Verify Your Email (If signing up with email) . | Check your inbox for a verification email from Dubverse | Click on the verification link in the email | If you don’t see the email, check your spam folder | . | Access Your Dashboard . | After verification and profile completion, you’ll be directed to your Dubverse dashboard | . | . ",
+    "url": "/pages/Harshil-Mehta-Dubverse/TTS-API-Docs/docs/account-creation/#account-creation-process",
+    
+    "relUrl": "/docs/account-creation/#account-creation-process"
+  },"2": {
+    "doc": "Creating Your Dubverse Account",
+    "title": "What’s Next?",
+    "content": "Now that you have your Dubverse account, here are your next steps: . | Obtain Your API Key - Essential for authenticating your API requests | Try our Speaker Selection Tool - Choose the perfect voice for your project | . ",
+    "url": "/pages/Harshil-Mehta-Dubverse/TTS-API-Docs/docs/account-creation/#whats-next",
+    
+    "relUrl": "/docs/account-creation/#whats-next"
+  },"3": {
+    "doc": "Creating Your Dubverse Account",
+    "title": "Need Help?",
+    "content": "If you encounter any issues during the account creation process: . | Contact our support team at support@dubverse.ai | . We’re excited to have you on board and can’t wait to see what you’ll create with Dubverse! . ← Back to Home . ",
+    "url": "/pages/Harshil-Mehta-Dubverse/TTS-API-Docs/docs/account-creation/#need-help",
+    
+    "relUrl": "/docs/account-creation/#need-help"
+  },"4": {
+    "doc": "Obtaining Your API Key",
+    "title": "Obtaining Your API Key",
+    "content": "Welcome to the API key generation process! Your API key is the gateway to accessing Dubverse’s powerful Text-to-Speech (TTS) capabilities. This guide will walk you through obtaining and securing your API key. ",
+    "url": "/pages/Harshil-Mehta-Dubverse/TTS-API-Docs/docs/api-key/",
+    
+    "relUrl": "/docs/api-key/"
+  },"5": {
+    "doc": "Obtaining Your API Key",
+    "title": "Generating Your API Key",
+    "content": "Follow these steps to create your Dubverse API key: . | Access Your Dubverse Account . | Visit https://webapp.dubverse.ai/ | Log in with your credentials | . | Navigate to the TTS API Section . | Look for “TTS API” in the main navigation menu | Click to access the TTS API dashboard | . | Locate the API Key Management Area . | Find the section labeled “API Key” | . | Generate Your New API Key . | Click the “Create Key” button | A new API key will be generated instantly | . | Secure Your API Key . | Copy the displayed API key immediately | Store it in a secure location (we recommend using a password manager) | . | . ",
+    "url": "/pages/Harshil-Mehta-Dubverse/TTS-API-Docs/docs/api-key/#generating-your-api-key",
+    
+    "relUrl": "/docs/api-key/#generating-your-api-key"
+  },"6": {
+    "doc": "Obtaining Your API Key",
+    "title": "Implementing Your API Key",
+    "content": "To authenticate your requests to the Dubverse TTS API, include your API key in the header of each request: . X-API-Key: your_api_key_here . Replace your_api_key_here with your actual API key. ",
+    "url": "/pages/Harshil-Mehta-Dubverse/TTS-API-Docs/docs/api-key/#implementing-your-api-key",
+    
+    "relUrl": "/docs/api-key/#implementing-your-api-key"
+  },"7": {
+    "doc": "Obtaining Your API Key",
+    "title": "Best Practices for API Key Security",
+    "content": "Protecting your API key is crucial. Follow these best practices: . | Keep It Confidential . | Never share your API key publicly | Avoid committing it to version control systems | . | Use Environment Variables . | Store your API key as an environment variable in your development and production environments | . | Implement Key Rotation . | Regularly generate new API keys and update your applications | . | Monitor Usage . | Regularly check your API usage logs for any suspicious activity | . | Revoke Compromised Keys . | If you suspect your key has been compromised, revoke it immediately and generate a new one | . | . ",
+    "url": "/pages/Harshil-Mehta-Dubverse/TTS-API-Docs/docs/api-key/#best-practices-for-api-key-security",
+    
+    "relUrl": "/docs/api-key/#best-practices-for-api-key-security"
+  },"8": {
+    "doc": "Obtaining Your API Key",
+    "title": "What’s Next?",
+    "content": "Now that you have your API key, you’re ready to harness the power of Dubverse TTS: . | Make Your First API Call - Start converting text to speech | . ",
+    "url": "/pages/Harshil-Mehta-Dubverse/TTS-API-Docs/docs/api-key/#whats-next",
+    
+    "relUrl": "/docs/api-key/#whats-next"
+  },"9": {
+    "doc": "Obtaining Your API Key",
+    "title": "Need Help?",
+    "content": "If you encounter any issues during the account creation process: . | Contact our support team at support@dubverse.ai | . We’re excited to see what you’ll create with Dubverse TTS! . ← Back to Home . ",
+    "url": "/pages/Harshil-Mehta-Dubverse/TTS-API-Docs/docs/api-key/#need-help",
+    
+    "relUrl": "/docs/api-key/#need-help"
+  },"10": {
+    "doc": "Making Your First TTS API Call",
+    "title": "Making Your First TTS API Call",
+    "content": "Congratulations on obtaining your API key! This guide will walk you through making your first Text-to-Speech (TTS) API call with Dubverse, converting your text into natural-sounding speech. ",
+    "url": "/pages/Harshil-Mehta-Dubverse/TTS-API-Docs/docs/first-call/",
+    
+    "relUrl": "/docs/first-call/"
+  },"11": {
+    "doc": "Making Your First TTS API Call",
+    "title": "Prerequisites",
+    "content": "Before you begin, ensure you have: . | Your Dubverse API key (If you haven’t obtained one, visit the API Key page) | A tool for making HTTP requests (e.g., Postman, cURL, or your preferred programming language) | . ",
+    "url": "/pages/Harshil-Mehta-Dubverse/TTS-API-Docs/docs/first-call/#prerequisites",
+    
+    "relUrl": "/docs/first-call/#prerequisites"
+  },"12": {
+    "doc": "Making Your First TTS API Call",
+    "title": "API Request Details",
+    "content": "HTTP Method . POST . Endpoint URL . https://macaque.dubverse.ai/api/merlin/services/tts/text-to-speech . Headers . X-API-Key: YOUR_API_KEY_HERE Content-Type: application/json . Replace YOUR_API_KEY_HERE with your actual Dubverse API key. Request Body . { \"text\": \"Hello, world! This is my first TTS API call.\", \"speaker\": 181, \"config\": { \"use_streaming_response\": false }, \"callback_url\": \"https://your-callback-url.com/endpoint\" } . ",
+    "url": "/pages/Harshil-Mehta-Dubverse/TTS-API-Docs/docs/first-call/#api-request-details",
+    
+    "relUrl": "/docs/first-call/#api-request-details"
+  },"13": {
+    "doc": "Making Your First TTS API Call",
+    "title": "Request Parameters Explained",
+    "content": ". | text (required): The input text you want to convert to speech. | speaker_no (required): The ID of the speaker voice. See Speaker Selection for available options. | config (optional): Additional configuration options. | use_streaming_response: Set to true for streamed audio, false for a complete audio file response. | . | callback_url (optional): URL to receive the API response if different from the origin. | . ",
+    "url": "/pages/Harshil-Mehta-Dubverse/TTS-API-Docs/docs/first-call/#request-parameters-explained",
+    
+    "relUrl": "/docs/first-call/#request-parameters-explained"
+  },"14": {
+    "doc": "Making Your First TTS API Call",
+    "title": "Making the API Call",
+    "content": "You can use any HTTP client to make this API call. Here’s an example using cURL: . curl -X POST \"https://macaque.dubverse.ai/api/merlin/services/tts/text-to-speech\" \\ -H \"X-API-Key: YOUR_API_KEY_HERE\" \\ -H \"Content-Type: application/json\" \\ -d '{ \"text\": \"Hello, world! This is my first TTS API call.\", \"speaker\": 181, \"config\": { \"use_streaming_response\": false } }' . ",
+    "url": "/pages/Harshil-Mehta-Dubverse/TTS-API-Docs/docs/first-call/#making-the-api-call",
+    
+    "relUrl": "/docs/first-call/#making-the-api-call"
+  },"15": {
+    "doc": "Making Your First TTS API Call",
+    "title": "Understanding the Response",
+    "content": "Success Response . For non-streamed responses: . | You’ll receive a WAV file containing the synthesized speech. | The response will have a Content-Type: audio/wav header. | . For streamed responses: . | You’ll receive audio data in chunks. | The response will have a Transfer-Encoding: chunked header. | . Error Response . If an error occurs, you’ll receive a JSON response with error details: . { \"error\": { \"code\": \"ERROR_CODE\", \"message\": \"Description of the error\" } } . ",
+    "url": "/pages/Harshil-Mehta-Dubverse/TTS-API-Docs/docs/first-call/#understanding-the-response",
+    
+    "relUrl": "/docs/first-call/#understanding-the-response"
+  },"16": {
+    "doc": "Making Your First TTS API Call",
+    "title": "Next Steps",
+    "content": "Now that you’ve made your first API call, you can: . | Learn more about Speaker Selection | Understand Usage and Billing | . ",
+    "url": "/pages/Harshil-Mehta-Dubverse/TTS-API-Docs/docs/first-call/#next-steps",
+    
+    "relUrl": "/docs/first-call/#next-steps"
+  },"17": {
+    "doc": "Making Your First TTS API Call",
+    "title": "Need Help?",
+    "content": "If you encounter any issues during the account creation process: . | Contact our support team at support@dubverse.ai | . We’re excited to see what you’ll create with Dubverse TTS! . ← Back to Home . ",
+    "url": "/pages/Harshil-Mehta-Dubverse/TTS-API-Docs/docs/first-call/#need-help",
+    
+    "relUrl": "/docs/first-call/#need-help"
+  },"18": {
+    "doc": "Welcome to Our TTS API Documentation",
+    "title": "Welcome to Our Text-to-Speech (TTS) API Documentation",
+    "content": "Welcome to the official documentation for our Text-to-Speech (TTS) API. This guide will help you integrate our powerful TTS capabilities into your applications, allowing you to convert text into natural-sounding speech. ",
+    "url": "/pages/Harshil-Mehta-Dubverse/TTS-API-Docs/#welcome-to-our-text-to-speech-tts-api-documentation",
+    
+    "relUrl": "/#welcome-to-our-text-to-speech-tts-api-documentation"
+  },"19": {
+    "doc": "Welcome to Our TTS API Documentation",
+    "title": "Quick Start Guide",
+    "content": ". | Create Your Account | Obtain Your API Key | Make Your First API Call | . ",
+    "url": "/pages/Harshil-Mehta-Dubverse/TTS-API-Docs/#quick-start-guide",
+    
+    "relUrl": "/#quick-start-guide"
+  },"20": {
+    "doc": "Welcome to Our TTS API Documentation",
+    "title": "Key Features",
+    "content": ". | High-quality text-to-speech conversion | Multiple speaker options | Customizable speech parameters | Streamed and non-streamed audio output | . ",
+    "url": "/pages/Harshil-Mehta-Dubverse/TTS-API-Docs/#key-features",
+    
+    "relUrl": "/#key-features"
+  },"21": {
+    "doc": "Welcome to Our TTS API Documentation",
+    "title": "Documentation Sections",
+    "content": ". | Speaker Selection Guide | Usage and Billing | . ",
+    "url": "/pages/Harshil-Mehta-Dubverse/TTS-API-Docs/#documentation-sections",
+    
+    "relUrl": "/#documentation-sections"
+  },"22": {
+    "doc": "Welcome to Our TTS API Documentation",
+    "title": "Getting Help",
+    "content": "If you need assistance or have any questions, please don’t hesitate to contact our support team. Thank you for choosing our TTS API. We’re excited to see what you’ll create! . ",
+    "url": "/pages/Harshil-Mehta-Dubverse/TTS-API-Docs/#getting-help",
+    
+    "relUrl": "/#getting-help"
+  },"23": {
+    "doc": "Welcome to Our TTS API Documentation",
+    "title": "Welcome to Our TTS API Documentation",
+    "content": " ",
+    "url": "/pages/Harshil-Mehta-Dubverse/TTS-API-Docs/",
+    
+    "relUrl": "/"
+  },"24": {
+    "doc": "Speaker Selection",
+    "title": "Speaker Selection",
+    "content": "Choosing the right voice for your Text-to-Speech (TTS) application is crucial for creating an engaging user experience. Dubverse offers a diverse range of high-quality voices across multiple languages and accents. This guide will help you navigate our speaker options and select the perfect voice for your project. ",
+    "url": "/pages/Harshil-Mehta-Dubverse/TTS-API-Docs/docs/speaker-selection/",
+    
+    "relUrl": "/docs/speaker-selection/"
+  },"25": {
+    "doc": "Speaker Selection",
+    "title": "Exploring the Speaker Playground",
+    "content": "Our Speaker Playground is a powerful tool designed to help you audition and select the ideal voice for your TTS needs. Accessing the Speaker Playground . | Log in to your Dubverse account at https://webapp.dubverse.ai/ | Navigate to the “TTS API” page in the main menu | Click on the “Speakers” tab | . Features of the Speaker Playground . | Language Filtering: Easily filter voices by language or dialect | Gender Selection: Choose between male, female, and neutral voice options | Audio Sampling: Listen to high-quality audio samples for each voice | Speaker Details: View comprehensive information about each voice, including: . | Speaker Number (for API calls) | Language | . | . ",
+    "url": "/pages/Harshil-Mehta-Dubverse/TTS-API-Docs/docs/speaker-selection/#exploring-the-speaker-playground",
+    
+    "relUrl": "/docs/speaker-selection/#exploring-the-speaker-playground"
+  },"26": {
+    "doc": "Speaker Selection",
+    "title": "Implementing Speakers in Your API Calls",
+    "content": "Once you’ve chosen a speaker, use its Number in your API requests: . { \"text\": \"Welcome to Dubverse TTS! How can I assist you today?\", \"speaker_no\": 181 } . In this example, 181 represents the chosen speaker’s Number. ",
+    "url": "/pages/Harshil-Mehta-Dubverse/TTS-API-Docs/docs/speaker-selection/#implementing-speakers-in-your-api-calls",
+    
+    "relUrl": "/docs/speaker-selection/#implementing-speakers-in-your-api-calls"
+  },"27": {
+    "doc": "Speaker Selection",
+    "title": "Best Practices for Speaker Selection",
+    "content": ". | Know Your Audience: Choose a voice that resonates with your target demographic in terms of language, accent, and style. | Consider Context: Select a voice appropriate for your application’s purpose (e.g., a professional tone for business applications, a friendly voice for customer service bots). | Test Thoroughly: Use the Speaker Playground to test your specific content with multiple voices before making a final decision. | Consistency is Key: Stick to one voice per character or purpose in your application to maintain a coherent user experience. | Stay Updated: Regularly check the Speaker Playground for new voices that might better suit your needs. | Localization: For global applications, consider using region-specific accents to enhance user engagement and authenticity. | . ",
+    "url": "/pages/Harshil-Mehta-Dubverse/TTS-API-Docs/docs/speaker-selection/#best-practices-for-speaker-selection",
+    
+    "relUrl": "/docs/speaker-selection/#best-practices-for-speaker-selection"
+  },"28": {
+    "doc": "Speaker Selection",
+    "title": "Speaker Costs and Billing",
+    "content": "Dubverse maintains a consistent pricing model across all speakers, based on the number of characters processed. This approach ensures fairness and predictability in your TTS costs. For detailed pricing information and to understand how billing works, please refer to our Usage and Billing page. ",
+    "url": "/pages/Harshil-Mehta-Dubverse/TTS-API-Docs/docs/speaker-selection/#speaker-costs-and-billing",
+    
+    "relUrl": "/docs/speaker-selection/#speaker-costs-and-billing"
+  },"29": {
+    "doc": "Speaker Selection",
+    "title": "Customization and Special Requests",
+    "content": "Need a specific voice or accent not currently available in our library? We’re here to help! . | Language Expansion: Request support for additional languages or dialects. | . Contact our support team at support@dubverse.ai to discuss your specific requirements. ",
+    "url": "/pages/Harshil-Mehta-Dubverse/TTS-API-Docs/docs/speaker-selection/#customization-and-special-requests",
+    
+    "relUrl": "/docs/speaker-selection/#customization-and-special-requests"
+  },"30": {
+    "doc": "Speaker Selection",
+    "title": "Need Assistance?",
+    "content": "If you have any questions about speaker selection or need guidance in choosing the right voice for your project: . | Reach out to our support team at support@dubverse.ai | . We’re excited to help you find the perfect voice for your TTS application! . ← Back to Home . ",
+    "url": "/pages/Harshil-Mehta-Dubverse/TTS-API-Docs/docs/speaker-selection/#need-assistance",
+    
+    "relUrl": "/docs/speaker-selection/#need-assistance"
+  },"31": {
+    "doc": "Usage and Billing",
+    "title": "Usage and Billing",
+    "content": "Effectively managing your Dubverse Text-to-Speech (TTS) API usage and understanding the associated costs is crucial for optimizing your integration. This comprehensive guide will help you track usage, understand billing processes, and manage your account efficiently. ",
+    "url": "/pages/Harshil-Mehta-Dubverse/TTS-API-Docs/docs/usage-billing/",
+    
+    "relUrl": "/docs/usage-billing/"
+  },"32": {
+    "doc": "Usage and Billing",
+    "title": "Monitoring Your API Usage",
+    "content": "Accessing Usage Statistics . | Log in to your Dubverse account at https://webapp.dubverse.ai/ | Navigate to the “TTS API” page from the main dashboard | Click on the “Usage” tab | . Available Usage Metrics . | Total API Calls: Number of requests made to the TTS API | Characters Processed: Total text characters converted to speech | Speaker Usage Breakdown: Utilization statistics for each voice | Historical Data: Usage trends over time (daily, weekly, monthly) | Current Billing Cycle Usage: Progress towards your usage cap | . ",
+    "url": "/pages/Harshil-Mehta-Dubverse/TTS-API-Docs/docs/usage-billing/#monitoring-your-api-usage",
+    
+    "relUrl": "/docs/usage-billing/#monitoring-your-api-usage"
+  },"33": {
+    "doc": "Usage and Billing",
+    "title": "Understanding Your Billing",
+    "content": "Viewing Billing Information . | Log in to your Dubverse account | Go to the “TTS API” page | Select the “Billing” tab | . Billing Cycle and Invoice Generation . | Invoices are generated every two weeks or when you reach your usage cap | You can view current usage, estimated charges, and past invoices at any time | . Billing Criteria . Your invoice is calculated based on: . | Total characters processed | Number of API calls made | . Pricing Structure . Our straightforward pricing model ensures transparency and predictability: . | Standard Rate: $1 or ₹60 per 10,000 characters processed | Consistent Pricing: All speakers are priced uniformly | Volume Discounts: Available for high-volume users (contact our sales team) | . Usage Limits and Restrictions . To maintain fair usage and prevent unexpected charges: . | Default Usage Cap: 50,000 characters per invoice or two weeks of usage | Cap Reached: API usage is restricted when the cap is reached | Restriction Removal: Access is restored once pending invoices are settled | . ",
+    "url": "/pages/Harshil-Mehta-Dubverse/TTS-API-Docs/docs/usage-billing/#understanding-your-billing",
+    
+    "relUrl": "/docs/usage-billing/#understanding-your-billing"
+  },"34": {
+    "doc": "Usage and Billing",
+    "title": "Enterprise and High-Volume Options",
+    "content": "For businesses with substantial TTS needs: . | Custom usage caps | Tailored pricing plans | Dedicated account management | Priority support | . Contact our sales team at support@dubverse.ai to discuss enterprise solutions. ",
+    "url": "/pages/Harshil-Mehta-Dubverse/TTS-API-Docs/docs/usage-billing/#enterprise-and-high-volume-options",
+    
+    "relUrl": "/docs/usage-billing/#enterprise-and-high-volume-options"
+  },"35": {
+    "doc": "Usage and Billing",
+    "title": "Cost Optimization Strategies",
+    "content": ". | Efficient Text Processing: Minimize unnecessary characters in your API requests | Caching: Store and reuse common TTS outputs to reduce API calls | Batch Processing: Combine multiple short texts into single API calls where applicable | Usage Monitoring: Regularly review your usage patterns to identify optimization opportunities | . ",
+    "url": "/pages/Harshil-Mehta-Dubverse/TTS-API-Docs/docs/usage-billing/#cost-optimization-strategies",
+    
+    "relUrl": "/docs/usage-billing/#cost-optimization-strategies"
+  },"36": {
+    "doc": "Usage and Billing",
+    "title": "Frequently Asked Questions",
+    "content": "Q: What happens if I exceed my usage cap? A: Your API access will be temporarily restricted. To resume service, settle your current invoice through the billing portal. Q: How quickly is my usage data updated? A: Usage statistics are typically updated in real-time, allowing for immediate monitoring of your API consumption. Q: Are there any hidden fees or charges? A: No, our pricing is transparent. You only pay for the characters processed, with no additional hidden costs. Q: How do I request an increase in my usage cap? A: Contact our support team at support@dubverse.ai to discuss increasing your usage limit. ",
+    "url": "/pages/Harshil-Mehta-Dubverse/TTS-API-Docs/docs/usage-billing/#frequently-asked-questions",
+    
+    "relUrl": "/docs/usage-billing/#frequently-asked-questions"
+  },"37": {
+    "doc": "Usage and Billing",
+    "title": "Need Assistance?",
+    "content": "For any questions regarding usage, billing, or account management: . | Contact our billing support team at support@dubverse.ai | . We’re committed to providing transparent and fair billing practices to support your TTS integration needs. ← Back to Home . ",
+    "url": "/pages/Harshil-Mehta-Dubverse/TTS-API-Docs/docs/usage-billing/#need-assistance",
+    
+    "relUrl": "/docs/usage-billing/#need-assistance"
+  }
+}
