@@ -1,7 +1,8 @@
-remote_theme: just-the-docs
-theme: just-the-docs
 title: TTS API Docs
 description: Complete guide to using our Text-to-Speech API
+theme: just-the-docs
+
+url: https://harshil-mehta-dubverse.github.io/TTS-API-Docs
 
 repository: Harshil-Mehta-Dubverse/TTS-API-Docs
 
