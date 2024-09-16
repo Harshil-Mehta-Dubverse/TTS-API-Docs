@@ -79,16 +79,19 @@ Contact our sales team at support@dubverse.ai to discuss enterprise solutions.
 
 ## Frequently Asked Questions
 
-Q: What happens if I exceed my usage cap?
+**Q: What happens if I exceed my usage cap?**  
 A: Your API access will be temporarily restricted. To resume service, settle your current invoice through the billing portal.
 
-Q: How quickly is my usage data updated?
+**Q: How quickly is my usage data updated?**  
 A: Usage statistics are typically updated in real-time, allowing for immediate monitoring of your API consumption.
 
-Q: Are there any hidden fees or charges?
+**Q: Can I change my billing cycle or payment method?**  
+A: Yes, contact our support team to discuss adjustments to your billing preferences.
+
+**Q: Are there any hidden fees or charges?**  
 A: No, our pricing is transparent. You only pay for the characters processed, with no additional hidden costs.
 
-Q: How do I request an increase in my usage cap?
+**Q: How do I request an increase in my usage cap?**  
 A: Contact our support team at support@dubverse.ai to discuss increasing your usage limit.
 
 ## Need Assistance?
