@@ -79,7 +79,7 @@ Now that you have your API key, you're ready to harness the power of Dubverse TT
 
 If you encounter any issues during the account creation process:
 
-- Contact our support team at support@dubverse.ai
+- Contact our support team at friends@dubverse.ai
 
 We're excited to see what you'll create with Dubverse TTS!
 

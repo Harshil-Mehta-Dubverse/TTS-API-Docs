@@ -68,7 +68,7 @@ For businesses with substantial TTS needs:
 - Dedicated account management
 - Priority support
 
-Contact our sales team at support@dubverse.ai to discuss enterprise solutions.
+Contact our sales team at friends@dubverse.ai to discuss enterprise solutions.
 
 ## Cost Optimization Strategies
 
@@ -92,13 +92,13 @@ A: Yes, contact our support team to discuss adjustments to your billing preferen
 A: No, our pricing is transparent. You only pay for the characters processed, with no additional hidden costs.
 
 **Q: How do I request an increase in my usage cap?**  
-A: Contact our support team at support@dubverse.ai to discuss increasing your usage limit.
+A: Contact our support team at friends@dubverse.ai to discuss increasing your usage limit.
 
 ## Need Assistance?
 
 For any questions regarding usage, billing, or account management:
 
-- Contact our billing support team at support@dubverse.ai
+- Contact our billing support team at friends@dubverse.ai
 
 We're committed to providing transparent and fair billing practices to support your TTS integration needs.
 

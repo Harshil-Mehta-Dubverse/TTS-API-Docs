@@ -65,13 +65,13 @@ Need a specific voice or accent not currently available in our library? We're he
 
 - **Language Expansion**: Request support for additional languages or dialects.
 
-Contact our support team at support@dubverse.ai to discuss your specific requirements.
+Contact our support team at friends@dubverse.ai to discuss your specific requirements.
 
 ## Need Assistance?
 
 If you have any questions about speaker selection or need guidance in choosing the right voice for your project:
 
-- Reach out to our support team at support@dubverse.ai
+- Reach out to our support team at friends@dubverse.ai
 
 We're excited to help you find the perfect voice for your TTS application!
 

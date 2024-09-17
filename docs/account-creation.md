@@ -47,7 +47,7 @@ Now that you have your Dubverse account, here are your next steps:
 
 If you encounter any issues during the account creation process:
 
-- Contact our support team at support@dubverse.ai
+- Contact our support team at friends@dubverse.ai
 
 We're excited to have you on board and can't wait to see what you'll create with Dubverse!
 

@@ -113,7 +113,7 @@ Now that you've made your first API call, you can:
 
 If you encounter any issues during the account creation process:
 
-- Contact our support team at support@dubverse.ai
+- Contact our support team at friends@dubverse.ai
 
 We're excited to see what you'll create with Dubverse TTS!
 
