@@ -56,6 +56,7 @@ Replace `YOUR_API_KEY_HERE` with your actual Dubverse API key.
 - `speaker_no` (required): The ID of the speaker voice. See [Speaker Selection](speaker-selection.md) for available options.
 - `config` (optional): Additional configuration options.
   - `use_streaming_response`: Set to `true` for streamed audio, `false` for a complete audio file response.
+  - `sample_rate`: (optional) Specify the sample rate of the audio output. Minimum value is 8000 and maximum is 48000. The default rate is 22050.
 - `callback_url` (optional): URL to receive the API response if different from the origin.
 
 ## Making the API Call

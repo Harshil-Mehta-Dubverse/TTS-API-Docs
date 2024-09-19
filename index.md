@@ -55,6 +55,7 @@ curl -X POST "https://macaque.dubverse.ai/api/merlin/services/tts/text-to-speech
 - Multiple speaker options
 - Customizable speech parameters
 - Streamed and non-streamed audio output
+- Adjustable sample rate for various audio quality needs
 
 ## Quick Start Guide
 
